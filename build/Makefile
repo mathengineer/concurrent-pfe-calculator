@@ -143,6 +143,60 @@ pfe_calculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/build
 .PHONY : pfe_calculator/fast
 
+src/InputParser.o: src/InputParser.cpp.o
+
+.PHONY : src/InputParser.o
+
+# target to build an object file
+src/InputParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.o
+.PHONY : src/InputParser.cpp.o
+
+src/InputParser.i: src/InputParser.cpp.i
+
+.PHONY : src/InputParser.i
+
+# target to preprocess a source file
+src/InputParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.i
+.PHONY : src/InputParser.cpp.i
+
+src/InputParser.s: src/InputParser.cpp.s
+
+.PHONY : src/InputParser.s
+
+# target to generate assembly for a file
+src/InputParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.s
+.PHONY : src/InputParser.cpp.s
+
+src/Option.o: src/Option.cpp.o
+
+.PHONY : src/Option.o
+
+# target to build an object file
+src/Option.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Option.cpp.o
+.PHONY : src/Option.cpp.o
+
+src/Option.i: src/Option.cpp.i
+
+.PHONY : src/Option.i
+
+# target to preprocess a source file
+src/Option.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Option.cpp.i
+.PHONY : src/Option.cpp.i
+
+src/Option.s: src/Option.cpp.s
+
+.PHONY : src/Option.s
+
+# target to generate assembly for a file
+src/Option.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Option.cpp.s
+.PHONY : src/Option.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... pfe_calculator"
+	@echo "... src/InputParser.o"
+	@echo "... src/InputParser.i"
+	@echo "... src/InputParser.s"
+	@echo "... src/Option.o"
+	@echo "... src/Option.i"
+	@echo "... src/Option.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

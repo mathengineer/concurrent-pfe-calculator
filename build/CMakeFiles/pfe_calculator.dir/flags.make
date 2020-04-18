@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -pthread -isysroot /Applications/Xcode.app/Contents/Deve
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I"/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/include" 
 
