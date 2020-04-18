@@ -197,6 +197,60 @@ src/Instruments.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s
 .PHONY : src/Instruments.cpp.s
 
+src/MarketData.o: src/MarketData.cpp.o
+
+.PHONY : src/MarketData.o
+
+# target to build an object file
+src/MarketData.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o
+.PHONY : src/MarketData.cpp.o
+
+src/MarketData.i: src/MarketData.cpp.i
+
+.PHONY : src/MarketData.i
+
+# target to preprocess a source file
+src/MarketData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.i
+.PHONY : src/MarketData.cpp.i
+
+src/MarketData.s: src/MarketData.cpp.s
+
+.PHONY : src/MarketData.s
+
+# target to generate assembly for a file
+src/MarketData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.s
+.PHONY : src/MarketData.cpp.s
+
+src/RiskEngine.o: src/RiskEngine.cpp.o
+
+.PHONY : src/RiskEngine.o
+
+# target to build an object file
+src/RiskEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o
+.PHONY : src/RiskEngine.cpp.o
+
+src/RiskEngine.i: src/RiskEngine.cpp.i
+
+.PHONY : src/RiskEngine.i
+
+# target to preprocess a source file
+src/RiskEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.i
+.PHONY : src/RiskEngine.cpp.i
+
+src/RiskEngine.s: src/RiskEngine.cpp.s
+
+.PHONY : src/RiskEngine.s
+
+# target to generate assembly for a file
+src/RiskEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.s
+.PHONY : src/RiskEngine.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -239,6 +293,12 @@ help:
 	@echo "... src/Instruments.o"
 	@echo "... src/Instruments.i"
 	@echo "... src/Instruments.s"
+	@echo "... src/MarketData.o"
+	@echo "... src/MarketData.i"
+	@echo "... src/MarketData.s"
+	@echo "... src/RiskEngine.o"
+	@echo "... src/RiskEngine.i"
+	@echo "... src/RiskEngine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -10,8 +10,16 @@ CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o
  ../include/Instruments.h
  ../include/MarketData.h
  /Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Instruments.cpp
+CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o
+ ../include/MarketData.h
+ /Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/MarketData.cpp
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o
+ ../include/MarketData.h
+ ../include/RiskEngine.h
+ /Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/RiskEngine.cpp
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o
  ../include/InputParser.h
  ../include/Instruments.h
  ../include/MarketData.h
+ ../include/RiskEngine.h
  /Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/main.cpp

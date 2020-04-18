@@ -103,9 +103,35 @@ CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Instruments.cpp" -o CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s
 
+CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o: CMakeFiles/pfe_calculator.dir/flags.make
+CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o: ../src/MarketData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o -c "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/MarketData.cpp"
+
+CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/MarketData.cpp" > CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.i
+
+CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/MarketData.cpp" -o CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.s
+
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o: CMakeFiles/pfe_calculator.dir/flags.make
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o: ../src/RiskEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o -c "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/RiskEngine.cpp"
+
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/RiskEngine.cpp" > CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.i
+
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/RiskEngine.cpp" -o CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.s
+
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: CMakeFiles/pfe_calculator.dir/flags.make
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pfe_calculator.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pfe_calculator.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pfe_calculator.dir/src/main.cpp.o -c "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/main.cpp"
 
 CMakeFiles/pfe_calculator.dir/src/main.cpp.i: cmake_force
@@ -120,6 +146,8 @@ CMakeFiles/pfe_calculator.dir/src/main.cpp.s: cmake_force
 pfe_calculator_OBJECTS = \
 "CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.o" \
 "CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o" \
+"CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o" \
+"CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o" \
 "CMakeFiles/pfe_calculator.dir/src/main.cpp.o"
 
 # External object files for target pfe_calculator
@@ -127,10 +155,12 @@ pfe_calculator_EXTERNAL_OBJECTS =
 
 pfe_calculator: CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.o
 pfe_calculator: CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o
+pfe_calculator: CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o
+pfe_calculator: CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o
 pfe_calculator: CMakeFiles/pfe_calculator.dir/src/main.cpp.o
 pfe_calculator: CMakeFiles/pfe_calculator.dir/build.make
 pfe_calculator: CMakeFiles/pfe_calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pfe_calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable pfe_calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pfe_calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

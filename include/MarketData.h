@@ -4,11 +4,19 @@
 #include <string>
 #include <unordered_map>
 
-struct MarketData
+class MarketData
 {
-    double riskFreeRate;
-    std::unordered_map<std::string, double> stockVols;
-    std::unordered_map<std::string, double> stockPrices;
+    public:
+        // Copy construct
+        MarketData(const MarketData &source);
+        // Copy assignment
+        MarketData &operator=(const MarketData &source);
+        // Default construct and destructor
+        MarketData() {}
+        ~MarketData() {}
+        double riskFreeRate;
+        std::unordered_map<std::string, double> vols;
+        std::unordered_map<std::string, double> prices;
 };
 
 #endif

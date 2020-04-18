@@ -60,8 +60,8 @@ void InputParser::readMarketData(std::string filename, MarketData &marketData)
             std::istringstream linestream(line);
             linestream >> ticker;
             linestream >> stockPrice >> vol;
-            marketData.stockPrices.insert({ticker, stockPrice});
-            marketData.stockVols.insert({ticker, vol});
+            marketData.prices.insert({ticker, stockPrice});
+            marketData.vols.insert({ticker, vol});
         }
     }
     else

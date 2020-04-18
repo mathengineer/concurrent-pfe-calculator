@@ -6,6 +6,9 @@ This is a simple PFE calculator for a netting set with multiple equity call opti
 1. Function, control structure and etc: it is everywhere
 2. Read data from file: InputParser.cpp
 3. Accept user inputs: main.cpp
+### Object Oriented Programming
+1. In Instruments.h and Instruments.cpp, Option class inherits from Instrument class that meets different requirements expect the last one about Templates.
+2. Template function used in RiskSimulator class in RiskEngine.h
 
 ## Input file format
 * Portfolio file: 

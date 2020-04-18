@@ -10,8 +10,16 @@ CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o: ../include/Instruments.h
 CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o: ../include/MarketData.h
 CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o: ../src/Instruments.cpp
 
+CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o: ../include/MarketData.h
+CMakeFiles/pfe_calculator.dir/src/MarketData.cpp.o: ../src/MarketData.cpp
+
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o: ../include/MarketData.h
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o: ../include/RiskEngine.h
+CMakeFiles/pfe_calculator.dir/src/RiskEngine.cpp.o: ../src/RiskEngine.cpp
+
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: ../include/InputParser.h
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: ../include/Instruments.h
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: ../include/MarketData.h
+CMakeFiles/pfe_calculator.dir/src/main.cpp.o: ../include/RiskEngine.h
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: ../src/main.cpp
 

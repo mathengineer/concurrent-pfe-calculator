@@ -33,6 +33,7 @@ class Option : public Instrument
         void setMarket(MarketData &marketData);
         bool isExpired(double t) const;
         double calculatePV(double t, double stockPrice) const;
+        double calculatePV(double t, double stockPrice, double vol, double riskFreeRate); // Overload to allow user to input vol for testing
         
     private:
         std::string _ticker;

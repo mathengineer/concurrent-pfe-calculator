@@ -6,6 +6,7 @@
 #include "InputParser.h"
 #include "Instruments.h"
 #include "MarketData.h"
+#include "RiskEngine.h"
 
 int main() 
 {
@@ -22,15 +23,20 @@ int main()
     MarketData marketData;
     InputParser::readMarketData(marketFilename, marketData);
     
+    // Load the market data and validate the pricing
     for (Option &option : portfolio)
     {
         option.setMarket(marketData);
+        // Validate the input and the pricing
         std::cout << option.getTradeInfo() << " price = " 
         << std::setprecision(2) << std::fixed
-        << option.NPV(0, marketData.stockPrices[option.getUnderlyingName()]) 
-        << " when current stock price is " << marketData.stockPrices[option.getUnderlyingName()] 
-        << std::endl; 
+        << option.calculatePV(0, marketData.prices[option.getUnderlyingName()], 0.000000001, 0.0) 
+        << " when current stock price is " << marketData.prices[option.getUnderlyingName()] 
+        << " and zero vol and zero risk free rate." << std::endl; 
     }
+
+    RiskSimulator riskSimulator(marketData);
+    riskSimulator.template trimMarketData<Option> (portfolio);
 
     return 0;
 }

@@ -43,7 +43,7 @@ std::string Option::getTradeInfo() const
 void Option::setMarket(MarketData &marketData)
 {
     _riskFreeRate = marketData.riskFreeRate;
-    _vol = marketData.stockVols[getUnderlyingName()];
+    _vol = marketData.vols[getUnderlyingName()];
     _marketDataAvailable = true;
 }
 
@@ -74,4 +74,19 @@ double Option::calculatePV(double t, double stockPrice) const
         return _notional * (normalCDF(-d2) * _strike * std::exp(-_riskFreeRate*(_expiry-t))
         - normalCDF(-d1) * stockPrice);
     }
+}
+
+double Option::calculatePV(double t, double stockPrice, double vol, double riskFreeRate)
+{
+    // Temporarily alter the _vol and _riskFreeRate for testing
+    auto tempVol = _vol;
+    auto tempRiskFreeRate = _riskFreeRate;
+    _vol = vol;
+    _riskFreeRate = riskFreeRate;
+    auto pv = calculatePV(t, stockPrice);
+
+    // Set _vol and _riskFreeRate back
+    _vol = tempVol;
+    _riskFreeRate = tempRiskFreeRate;
+    return pv;
 }
