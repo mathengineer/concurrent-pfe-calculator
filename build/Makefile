@@ -170,32 +170,32 @@ src/InputParser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.s
 .PHONY : src/InputParser.cpp.s
 
-src/Option.o: src/Option.cpp.o
+src/Instruments.o: src/Instruments.cpp.o
 
-.PHONY : src/Option.o
+.PHONY : src/Instruments.o
 
 # target to build an object file
-src/Option.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Option.cpp.o
-.PHONY : src/Option.cpp.o
+src/Instruments.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o
+.PHONY : src/Instruments.cpp.o
 
-src/Option.i: src/Option.cpp.i
+src/Instruments.i: src/Instruments.cpp.i
 
-.PHONY : src/Option.i
+.PHONY : src/Instruments.i
 
 # target to preprocess a source file
-src/Option.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Option.cpp.i
-.PHONY : src/Option.cpp.i
+src/Instruments.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.i
+.PHONY : src/Instruments.cpp.i
 
-src/Option.s: src/Option.cpp.s
+src/Instruments.s: src/Instruments.cpp.s
 
-.PHONY : src/Option.s
+.PHONY : src/Instruments.s
 
 # target to generate assembly for a file
-src/Option.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Option.cpp.s
-.PHONY : src/Option.cpp.s
+src/Instruments.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pfe_calculator.dir/build.make CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s
+.PHONY : src/Instruments.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -236,9 +236,9 @@ help:
 	@echo "... src/InputParser.o"
 	@echo "... src/InputParser.i"
 	@echo "... src/InputParser.s"
-	@echo "... src/Option.o"
-	@echo "... src/Option.i"
-	@echo "... src/Option.s"
+	@echo "... src/Instruments.o"
+	@echo "... src/Instruments.i"
+	@echo "... src/Instruments.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

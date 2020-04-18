@@ -90,18 +90,18 @@ CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/InputParser.cpp" -o CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.s
 
-CMakeFiles/pfe_calculator.dir/src/Option.cpp.o: CMakeFiles/pfe_calculator.dir/flags.make
-CMakeFiles/pfe_calculator.dir/src/Option.cpp.o: ../src/Option.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pfe_calculator.dir/src/Option.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pfe_calculator.dir/src/Option.cpp.o -c "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Option.cpp"
+CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o: CMakeFiles/pfe_calculator.dir/flags.make
+CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o: ../src/Instruments.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o -c "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Instruments.cpp"
 
-CMakeFiles/pfe_calculator.dir/src/Option.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pfe_calculator.dir/src/Option.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Option.cpp" > CMakeFiles/pfe_calculator.dir/src/Option.cpp.i
+CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Instruments.cpp" > CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.i
 
-CMakeFiles/pfe_calculator.dir/src/Option.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pfe_calculator.dir/src/Option.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Option.cpp" -o CMakeFiles/pfe_calculator.dir/src/Option.cpp.s
+CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mathengineer/Dropbox/Udacity Cpp/concurrent-pfe-calculator/src/Instruments.cpp" -o CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.s
 
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: CMakeFiles/pfe_calculator.dir/flags.make
 CMakeFiles/pfe_calculator.dir/src/main.cpp.o: ../src/main.cpp
@@ -119,14 +119,14 @@ CMakeFiles/pfe_calculator.dir/src/main.cpp.s: cmake_force
 # Object files for target pfe_calculator
 pfe_calculator_OBJECTS = \
 "CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.o" \
-"CMakeFiles/pfe_calculator.dir/src/Option.cpp.o" \
+"CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o" \
 "CMakeFiles/pfe_calculator.dir/src/main.cpp.o"
 
 # External object files for target pfe_calculator
 pfe_calculator_EXTERNAL_OBJECTS =
 
 pfe_calculator: CMakeFiles/pfe_calculator.dir/src/InputParser.cpp.o
-pfe_calculator: CMakeFiles/pfe_calculator.dir/src/Option.cpp.o
+pfe_calculator: CMakeFiles/pfe_calculator.dir/src/Instruments.cpp.o
 pfe_calculator: CMakeFiles/pfe_calculator.dir/src/main.cpp.o
 pfe_calculator: CMakeFiles/pfe_calculator.dir/build.make
 pfe_calculator: CMakeFiles/pfe_calculator.dir/link.txt
